@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop.co</title>
+    <!-- Link for CSS -->
+    <link rel="stylesheet" href="../src/output.css" />
+    <link rel="stylesheet" href="../src/input.css" />
+    <!-- Link for Remix Icon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <nav>
+        <div
+          class="nav-main h-24 w-full flex justify-center items-center sticky"
+        >
+          <div
+            class="nav-wrapper h-16 w-[95%] bg-white flex justify-evenly items-center gap-6 px-10"
+          >
+            <h1 class="text-3xl">Shop.co</h1>
+            <div
+              class="options-wrapper h-[100%] px-5 flex justify-start items-center gap-5 text-sm"
+            >
+              <a href=""
+                ><h4>Shop<i class="ri-arrow-down-s-line"></i></h4
+              ></a>
+              <a href=""><h4>On Sale</h4></a>
+              <a href=""><h4>New Arrivals</h4></a>
+              <a href=""><h4>Brands</h4></a>
+            </div>
+            <div
+              class="srach-bar h-[65%] w-[530px] px-5 bg-[#f0f0f0] flex justify-center items-center gap-6 rounded-full"
+            >
+              <i class="text-xl text-slate-500 ri-search-line"></i>
+              <input
+                class="w-full border-none outline-none bg-transparent placeholder:text-sm placeholder:text-slate-500"
+                type="text"
+                placeholder="Search for products..."
+              />
+            </div>
+            <div class="end-option ms-4">
+              <a href=""><i class="text-xl ri-shopping-cart-line"></i></a>
+              <a href=""><i class="ms-4 text-xl ri-user-line"></i></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="page1">
+        <div class="page1-wrapper h-[85vh] w-full bg-[#f0f0f0] flex">
+          <div
+            class="left w-[50%] h-[100%] py-14 px-20 flex flex-col justify-center items-start"
+          >
+            <h1 class="text-5xl leading-[50px] mb-8">
+              Find clothes that matches your style
+            </h1>
+            <p class="text-sm text-[#616060] mb-8">
+              Browse through our diverse range of meticulously crafted garments,
+              designed to bring out your individuality and cater to your sense
+              of style.
+            </p>
+            <button
+              class="py-3 px-12 bg-black rounded-full text-white text-sm mb-8 transition-all duration-300 ease-in-out hover:bg-[#101012]"
+            >
+              Shop Now
+            </button>
+            <div
+              class="rank-wrapper w-[100%] h-[15vh] flex justify-start items-center"
+            >
+              <div class="me-16">
+                <h2 class="text-3xl">200+</h2>
+                <p class="text-xs text-[#616060]">International brands</p>
+              </div>
+              <div class="me-16">
+                <h2 class="text-3xl">2,000+</h2>
+                <p class="text-xs text-[#616060]">High-Quality Products</p>
+              </div>
+              <div class="">
+                <h2 class="text-3xl">3,000+</h2>
+                <p class="text-xs text-[#616060]">Happy Customers</p>
+              </div>
+            </div>
+          </div>
+          <div class="right w-[50%] h-[100%] flex justify-center relative">
+            <img
+              src="../assets/images/bg/home.png"
+              class="w-[100%] h-[100%]"
+              alt=""
+            />
+            <img
+              src="../assets/images/vector/Vector-star.png"
+              class="w-[70px] h-[70px] absolute top-16 right-20"
+              alt=""
+            />
+            <img
+              src="../assets/images/vector/Vector-star.png"
+              class="w-[40px] h-[40px] absolute top-56 left-28"
+              alt=""
+            />
+          </div>
+        </div>
+        <div
+          class="page1-brand-wrapper h-[18vh] w-full bg-black flex justify-center items-center gap-32"
+        >
+          <div>
+            <img
+              src="../assets/images/vector/versace.png"
+              class="w-32"
+              alt=""
+            />
+          </div>
+          <div>
+            <img src="../assets/images/vector/zara.png" class="w-20" alt="" />
+          </div>
+          <div>
+            <img src="../assets/images/vector/gucci.png" class="w-32" alt="" />
+          </div>
+          <div>
+            <img src="../assets/images/vector/prada.png" class="w-32" alt="" />
+          </div>
+          <div>
+            <img src="../assets/images/vector/calvin.png" class="w-32" alt="" />
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
